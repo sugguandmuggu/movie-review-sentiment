@@ -1,5 +1,3 @@
-# app/sentiment.py
-
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
 
@@ -8,7 +6,7 @@ MODEL_NAME = "Dmyadav2001/Sentimental-Analysis"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
 
-# Define labels (based on the model's documentation/order)
+# Define labels
 labels = ['Negative', 'Positive', 'Neutral']
 
 def analyze_sentiment(text: str) -> dict:
