@@ -37,14 +37,21 @@ This project is a full-stack application that analyzes the sentiment of movie re
    cd backend
    ```
 2. Install the Python dependencies:
+   
+   (Tip) Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  #For macOS
+   ```
+   Command to install the python dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the FastAPI server(locally):
+4. Run the FastAPI server(locally):
    ```bash
    uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
    ```
-4. Testing the Backend API:
+5. Testing the Backend API:
    Use this curl to test the /analyze endpoint:
    ```bash
    curl -X POST "http://127.0.0.1:8000/analyze" \
