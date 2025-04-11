@@ -24,6 +24,8 @@ This project is a full-stack application that analyzes the sentiment of movie re
 
 #### Local Setup Instructions
 
+The running application is deployed using Docker Compose
+
 1. **Clone the Repository**  
    Open your terminal and run:
    ```bash
