@@ -16,6 +16,7 @@ This project is a full-stack application that analyzes the sentiment of movie re
 - **Containerization:**  
   - Both the frontend and backend are containerized, ensuring a consistent environment across development machines.
   - Docker Compose is used to orchestrate the multi-container setup.
+  - Deployed on a **Google Cloud Platform (GCP) VM**.
  
 ### Prerequisites
 - **Python 3.10+** (for the backend)
